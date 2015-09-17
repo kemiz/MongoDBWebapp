@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Persons Manage Page</title>
+<title>Persons Manage Page v2</title>
 <style>
 table,th,td {
 	border: 1px solid black;
@@ -13,6 +13,7 @@ table,th,td {
 </style>
 </head>
 <body>
+	VERSION 2
 	<%-- Person Add/Edit logic --%>
 	<c:if test="${requestScope.error ne null}">
 		<strong style="color: red;"><c:out
