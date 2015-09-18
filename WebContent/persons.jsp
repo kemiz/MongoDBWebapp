@@ -13,7 +13,7 @@ table,th,td {
 </style>
 </head>
 <body>
-	VERSION 3 - COLT DEMO
+	VERSION 3 - COLT DEMO - UPGRADED 11AM 18 SEP
 	<%-- Person Add/Edit logic --%>
 	<c:if test="${requestScope.error ne null}">
 		<strong style="color: red;"><c:out
